@@ -11,6 +11,6 @@ function filter(array, test) {
 
 }
 
-consolelog(filter(linux, function(getdate) {
+console.log(filter(linux, function(getdate) {
 	return getdate.DatebyMS > 1000000000000;
 }));
