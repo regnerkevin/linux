@@ -3,7 +3,7 @@ var linux = JSON.parse(data);
 function filter(array, test) {
 	var passed = [];
 	for (var i = 0; i < array.length; i++) {
-		if (test(array[i]);
+		if (test(array[i]))
 			passed.push(array[i]);
 	}
 
