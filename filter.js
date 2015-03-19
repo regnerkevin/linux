@@ -1,5 +1,5 @@
 var data = require('./linux.js');
-var GameList = JSON.parse(data);
+var LINUX = JSON.parse(data);
 function filter(array, test) {
 	var passed [];
 	for (var i = 0; i < array.length; i++) {
