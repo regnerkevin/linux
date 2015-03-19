@@ -11,6 +11,6 @@ function filter(array, test) {
 
 }
 
-print(JSON.stringify(filter(linux, function(linux) {
-	return linux.DatebyMS > 1000000000000;
+print(JSON.stringify(filter(linux, function(getdate) {
+	return getdate.DatebyMS > 1000000000000;
 })));
