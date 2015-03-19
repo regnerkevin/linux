@@ -27,7 +27,7 @@ function drawTable(rows) {
     });
     // 
     return blocks[0].map(function(_, lineNo) {
-       // print('Just returned: ' + blocks[0] + ' of line: ' + lineNo + ' as ' + blocks);
+        print('Just returned: ' + blocks[0] + ' of line: ' + lineNo + ' as ' + blocks);
 
        // print('Rendering a line: ' + drawLine(blocks, lineNo));
        return drawLine(blocks, lineNo);
