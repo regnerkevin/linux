@@ -12,10 +12,7 @@ function rowHeights(rows) {
 // Uses cell data to generate a mapped array of necessary widths
 // Inputs and outputs are as above, except widths instead of heights
 function colWidths(rows) {
-  var maxCharacters = 10;
-  var totalCharacters = 0;
-    if (totalCharacters = maxCharacters) 
-      
+
   return rows[0].map(function(_, i) { // Note use of "dead" parameter
     return rows.reduce(function(max, row) {
       return Math.max(max, row[i].minWidth());
