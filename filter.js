@@ -12,5 +12,5 @@ function filter(array, test) {
 }
 
 print(JSON.stringify(filter(LINUX, function(linux) {
-	return linux.YearReleased > 2008;
+	return linux.DatebyMS > 1000000000000;
 })));
